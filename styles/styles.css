@@ -407,5 +407,46 @@ transition-delay: 0.496s;
     font-size: 200%;
     display: none;
 }
+/*ps*/
+#ps{
+    background: url(../images/ps_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-origin:content-box;
+   
+}
+#ps h2{
+    color: #A1C947;
+    font-size: 300%;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom:3px solid #056839;
+    width: 300px;
+    padding-bottom: 20px;
+}
+#ps p{
+    font-size: 120%;
+    text-align: left;
+    text-indent: 50px;
+}
+/*contact*/
+#contact{
+   text-align: center; 
+}
+#contact h2{
+    color: #A1C947;
+    font-size: 300%;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom:3px solid #056839;
+    width: 300px;
+    padding-bottom: 20px;
 
-
+}
+#contact p{
+    font-size: 120%;
+}
+.weichat img{
+    width: 300px;
+}
