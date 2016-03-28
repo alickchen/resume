@@ -204,29 +204,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "/D/27298/Project/项目/预览图幻灯片/index.html",
 			"settings":
 			{
-				"buffer_size": 18298,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "styles/styles.css",
-			"settings":
-			{
-				"buffer_size": 7359,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "$(function(){\n    //logo头像hover动画；\n$(\".logo\").hover(\n   	function(){\n   	if (!$(\".logo,.logo_1\").is(\":animated\")) {\n   	    \n         $(\".logo_1\").fadeOut(\"slow\"); \n                       }	\n                      },\n      function(){\n   	  $(\".logo_1\").fadeIn(\"slow\"); \n   	               \n                  });\n  //导航栏效果\n  \n\n\n   //内部链接平滑滑动；\n   $('.navlink a').click(function () {\n          \n   	          var $idhref=$(this).attr(\"href\");\n               $('html, body').animate({\n                   scrollTop:($($idhref).offset().top) }, 500);\n                   return false;});\n   $('.navbar-brand').click(function () {\n         \n               $('html, body').animate({\n                   scrollTop: 0 }, 500);\n                   return false;})\n    $('#btn_aboutme').click(function () {\n       \n               $('html, body').animate({\n                   scrollTop: ($(\"#aboutme\").offset().top) }, 500);\n                   return false;});\n    $('#btn_contact').click(function () {\n     \n               $('html, body').animate({\n                   scrollTop: ($(\"#contact\").offset().top) }, 500);\n                   return false;});\n   //当滚动条滚动到导航条位置时，导航条变为fixed; \n   $(window).scroll(function(){\n   	   if ($(window).scrollTop()>$(\"#aboutme\").offset().top-95) {\n   	   $(\".navbar\").removeClass(\"nav_ab\").addClass(\"navbar-fixed-top\");\n       $(\"#aboutme\").css(\"marginTop\",\"90px\");\n              	}else{\n              	$(\".navbar\").removeClass(\"navbar-fixed-top\").addClass(\"nav_ab\");\n                $(\"#aboutme\").css(\"marginTop\",\"0px\");\n                \n              	};\n\n\n      //skill圆形进度条效果\n       if ($(window).scrollTop()>($(\"#skill\").offset().top-50)) {\n           $('.circle').each(function(index, el) {\n        var num = $(this).find('span').text() * 3.6;\n        if (num<=180) {\n            $(this).find('.right').css('transform', \"rotate(\" + num + \"deg)\");\n        } else {\n            $(this).find('.right').css('transform', \"rotate(180deg)\");\n            $(this).find('.left').css('transform', \"rotate(\" + (num - 180) + \"deg)\");\n        };\n         }); }\n    //滚动时导航栏样式变化\nif ($(window).scrollTop()<($(\"#aboutme\").offset().top-50)) {\n    $(\".navlink li\").removeClass(\"on\");\n }else if ($(window).scrollTop()>($(\"#aboutme\").offset().top-50)&&$(window).scrollTop()<($(\"#experience\").offset().top-50)) {\n    $(\".navlink li:eq(0)\").addClass(\"on\").siblings().removeClass(\"on\");\n  }else if ($(window).scrollTop()>($(\"#experience\").offset().top-50)&&$(window).scrollTop()<($(\"#skill\").offset().top-50)) {\n    $(\".navlink li:eq(1)\").addClass(\"on\").siblings().removeClass(\"on\");\n  } else if ($(window).scrollTop()>($(\"#skill\").offset().top-50)&&$(window).scrollTop()<($(\"#project\").offset().top-50)) {\n    $(\".navlink li:eq(2)\").addClass(\"on\").siblings().removeClass(\"on\");\n  } else if ($(window).scrollTop()>($(\"#project\").offset().top-50)&&$(window).scrollTop()<($(\"#picture\").offset().top-50)) {\n    $(\".navlink li:eq(3)\").addClass(\"on\").siblings().removeClass(\"on\");\n  } else if ($(window).scrollTop()>($(\"#picture\").offset().top-50)&&$(window).scrollTop()<($(\"#ps\").offset().top-50)) {\n    $(\".navlink li:eq(4)\").addClass(\"on\").siblings().removeClass(\"on\");\n  } else if ($(window).scrollTop()>($(\"#ps\").offset().top-50)&&$(window).scrollTop()<($(\"#contact\").offset().top-50)) {\n    $(\".navlink li:eq(5)\").addClass(\"on\").siblings().removeClass(\"on\");\n  } else if ($(window).scrollTop()>($(\"#contact\").offset().top-50)) {\n    $(\".navlink li:eq(6)\").addClass(\"on\").siblings().removeClass(\"on\");\n  };\n\n\n\n   });\n  //aboutme树遮罩文字\n  $(\".aboutme_1\").hover(\n  	function () {\n  		if (!$(\".aboutme_tips\").is(\":animated\")) {\n			  	$(\".aboutme_tips\").fadeIn(1000);\n			  	$(\".aboutme_tips>p\").fadeIn(3000);}\n  	},\n  	function () {\n  		$(\".aboutme_tips\").fadeOut(5000);\n  		$(\".aboutme_tips>p\").fadeOut(3000);}\n  	);\n \n//首页背景图片轮播\n var $bg1=$(\"#bg>.bg_slide\").eq(0);\n var $bg2= $(\"#bg>.bg_slide\").eq(1);\n var bg_length= $(\"#bg>.bg_slide\").length-1;\n var bg_num=1;\n var showpic=$bg2;\n function bg_show(){\n  if (bg_num<bg_length) {\n     showpic.fadeIn(1000,function(){$(this).siblings().css(\"display\",\"none\");});\n     bg_num++;\n     showpic=showpic.next();\n    }else{\n    showpic.fadeIn(1000,function(){\n            $bg1.css(\"display\",\"block\").siblings().css(\"display\",\"none\");\n             });\n    bg_num=1;\n    showpic=$bg2;\n    }\n   };\n  bg_show(); \n var bgplay=setInterval(bg_show,4000);\n\n//图册无限滚动    \n     var segmentWidth=0;\n     var  $scrollUl=$(\".scroll_p ul\");\n     var  $scrollLi=$scrollUl.find(\"li\");\n       function run(){   \n                      $scrollUl.animate({left:-2733},12000,\"linear\", function(){ $scrollUl.css(\"left\",\"0px\");}); \n       \n      }; \n      var scroll_play=setInterval(run,12000);\n /* $(\".pic img:last\").load(function(){\n       $scrollLi.each(function(){\n        segmentWidth += $(this)[0].offsetWidth;\n          });\n     console.log(segmentWidth);*///原本用来获得缩略图总宽度，由于网页加载时间不确定，所以自动计算的宽度有时候不准。所以现在直接固定为2733\n/*});*/\n //图册hover停止\n $scrollUl.hover(function(){clearInterval(scroll_play);$scrollUl.stop();},function(){ \n  run();\n   scroll_play=setInterval(run,12000);})\n //图册点击切换\n$scrollLi.click(function(){\n  var src=$(this).find(\"img\").attr(\"alt\");\n  $(\"#bigpic .loading\").css(\"display\",\"block\");\n  $(\"#bigpic\").find(\"img\").attr(\"src\",src).load(function(){\n  $(\"#bigpic .loading\").css(\"display\",\"none\");\n  });\n\n}).clone(true).appendTo($scrollUl);\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n});",
-			"file": "javascript/main.js",
-			"file_size": 5799,
-			"file_write_time": 131036178987898909,
-			"settings":
-			{
-				"buffer_size": 5394,
+				"buffer_size": 4725,
 				"line_ending": "Windows"
 			}
 		}
@@ -359,29 +340,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "/D/27298/Project/项目/预览图幻灯片/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18298,
+						"buffer_size": 4725,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12036,
-								12036
+								4038,
+								4038
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3914.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -390,69 +369,8 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"file": "styles/styles.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7359,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3576,
-								3576
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4166.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "javascript/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5394,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5390,
-								5390
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2478.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -484,7 +402,7 @@
 		"cols":
 		[
 			0.0,
-			0.971925884335,
+			0.527793374509,
 			1.0
 		],
 		"rows":
