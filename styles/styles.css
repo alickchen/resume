@@ -408,13 +408,8 @@ transition-delay: 0.496s;
     display: none;
 }
 /*ps*/
-#ps{
-    background: url(../images/ps_bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    background-origin:content-box;
-   
+#ps{ 
+    text-align: center;  
 }
 #ps h2{
     color: #A1C947;
@@ -425,7 +420,13 @@ transition-delay: 0.496s;
     width: 300px;
     padding-bottom: 20px;
 }
-#ps p{
+.ps{
+    background: url(../images/ps_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+.ps p{
     font-size: 120%;
     text-align: left;
     text-indent: 50px;
