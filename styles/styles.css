@@ -185,7 +185,7 @@
 .ex_content{
 	margin-top: 30px;
 }
-.ex_content span{
+.until,.from,.more{
 	color: #FFF;
 	font-size: 200%;
 	padding: 10px;
@@ -214,6 +214,42 @@
 	color: #005D6C;
 	font-weight: bold;
 }
+.more{
+   /* width: 80px;
+    height: 30px;
+    display: block;*/
+    background-color: #005D6C;
+    /*color: #FFF;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 10px;
+    float: right;
+    font-weight: bold;*/
+}
+.ex_more{
+    position: absolute;
+    top: -280px;
+    background-color: #8EC63F;
+    color: #FFF;
+    border-radius: 20px;
+    padding: 20px 20px 0 20px;
+    transition:All 0.5s linear;
+    -webkit-transition:All 0.5s linear;
+    -moz-transition:All 0.5s linear;
+    -o-transition:All 0.5s linear;
+    opacity: 0;
+}
+.ex_more dt{
+    color: #056839;
+    font-size: 120%;
+    font-weight: bold;
+}
+#ex_school:hover .ex_more{
+    top: -300px;
+    opacity: 1;
+
+}
+
 /*skill*/
 .circle {
     width: 200px;
