@@ -396,5 +396,16 @@ transition-delay: 0.496s;
 	box-shadow:0 0 3px #ccc;  
 	
 }
+.loading{
+    position: absolute;
+    background-color: rgba(255,255,255,0.7);
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    top: 200px;
+    left: 0;
+    font-size: 200%;
+    display: none;
+}
 
 

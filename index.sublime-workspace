@@ -1,1 +1,536 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"d",
+				"dir	Tag"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"cl",
+				"clearInterval"
+			],
+			[
+				"e",
+				"each"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"bg_",
+				"bg_show"
+			],
+			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"c",
+				"console"
+			],
+			[
+				"pi",
+				"picture"
+			],
+			[
+				"o",
+				"opacity"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"f",
+				"find"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"ta",
+				"text-align"
+			],
+			[
+				"fi",
+				"first"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"bck",
+				"background-color"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"m",
+				"marginTop"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"h",
+				"h4	Tag"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"id",
+				"index"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"get",
+				"getElementsByTagName"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"borderr",
+				"border-radius"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"font-s",
+				"font-variant-ligatures"
+			],
+			[
+				"bca",
+				"background-position"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"s",
+				"span	Tag"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"inl",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head>\n    <meta charset=\"utf-8\">\n    <meta name=\"description\" content=\"陈建辉的web前端开发个人简历\">\n	<title>web前端开发简历-Alick</title>\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n	<link rel=\"stylesheet\" href=\"styles/styles.css\">\n    <link rel=\"stylesheet\" href=\"styles/bootstrap.css\" >\n    <script  type=\"text/javascript\" src=\"javascript/jquery.min.js\"></script>\n    <script  type=\"text/javascript\" src=\"javascript/main.js\"></script>  \n    <link rel=\"icon\" type=\"image/png\" href=\"images/icon.png\"  sizes=\"16*16\">\n</head>\n<body >\n<!-- 首页背景图 -->\n<div class=\"warp\">\n    <div id=\"bg\">\n       <div class=\"bg_slide\" style=\"display:block\">\n           <img src=\"images/bgp/bgp1.jpg\" alt=\"bg_1\">\n       </div>\n         <div class=\"bg_slide\">\n           <img src=\"images/bgp/bgp2.jpg\" alt=\"bg_2\" >\n       </div>  \n         <div class=\"bg_slide\">\n           <img src=\"images/bgp/bgp3.jpg\" alt=\"bg_3\" >\n       </div>  \n         <div class=\"bg_slide\">\n           <img src=\"images/bgp/bgp4.jpg\" alt=\"bg_4\" >\n       </div>  \n       <div class=\"bg_slide\">\n           <img src=\"images/bgp/bgp1.jpg\" alt=\"bg_1\">\n       </div>      \n    </div>\n</div>\n<div class=\"main\">\n    <div id=\"firstpage\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-12\">    \n                    <div  class=\"introd \">\n                        <div class=\"logo\">\n                        <img src=\"images/logo_2.jpg\" width=\"100%\" height=\"100%\">\n                        <img class=\"logo_1\" src=\"images/logo_1.jpeg\" width=\"100%\" height=\"100%\">\n                         </div>\n                        <h1><strong>我叫陈建辉</strong></h1>\n                        <p><strong>一个前端新手，毕业于暨南大学。爱生活，爱前端，渴望寻找人生中第一份前端开发工作。</strong></p>\n                         <button id=\"btn_aboutme\" class=\"btn btn-primary btn-lg\" type=\"button\">了解我</button>  \n                         <button id=\"btn_contact\" class=\"btn btn-primary btn-lg\" type=\"button\">联系我</button> \n                    </div>\n                </div>\n            </div>\n        </div>     \n    </div>\n<!-- 导航栏开始 -->\n<nav  class=\"navbar navbar-default nav_ab\" role=\"navigation\">\n   <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" \n         data-target=\"#example-navbar-collapse\">\n         <span class=\"sr-only\">切换导航</span>\n         <span class=\"icon-bar\"></span>\n         <span class=\"icon-bar\"></span>\n         <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"#firstpage\">首页</a>\n   </div>\n   <div class=\"collapse navbar-collapse\" id=\"example-navbar-collapse\">\n      <ul class=\"nav navbar-nav navlink \">\n         <li><a href=\"#aboutme\">关于我</a></li>\n         <li><a href=\"#experience\">个人历程</a></li>\n         <li><a href=\"#skill\">职业技能</a></li>\n         <li><a href=\"#project\">作品集</a></li>\n         <li><a href=\"#picture\">我的图册</a></li>\n         <li><a href=\"#ps\">后记</a></li>\n      </ul>\n   </div>\n</nav>\n<!-- 导航栏结束 -->\n\n\n\n     <div id=\"aboutme\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-6\">\n                    <div class=\"aboutme_1\">\n                       <img src=\"images/tree.jpg\" width=\"100%\" alt=\"tree\">\n                       <div class=\"aboutme_tips\">\n                          <p>种一棵树最好的时间是十年前，<br/>其次，是现在。</p>\n                       </div>\n                   </div>\n                </div>     \n                <div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-6 aboutme\">\n                        <h2>关于我</h2>\n                        <hr/>\n                        <h3>陈建辉</h3>\n                        <h4>一名前端开发学习者</h4>\n                        <p>2014年毕业于暨南大学电子工程系，有一定编程基础。大学期间做过国创项目，还有其他的小项目，但都是基于单片机的硬件开发类项目。由于当时自己对硬件开发类不是特别感兴趣，所以毕业后就选择了在某国企做网络运维工作。在工作一年多之后，一次偶然的机会接触到了前端开发领域。与之前枯燥的硬件开发不同，前端开发所见即所得的特点，还有可以制作很多很酷炫的效果使我对前端开发产生了浓厚的兴趣。我像是忽然发现了新世界的大门，开始跳入前端的大坑。经过大概半年的业余学习，现在已经可以熟练使用HTML(5)/CSS(3)和JavaScript(jQuery)开发网页，同样掌握当前流行的开发框架，如Bootstrap的使用方法。英语已过六级，对英文的书籍和网站的阅读无太大障碍。掌握前端开发基本的Photoshop技能。前端的水很深，新技术也不断地在更新，所以自己现在每天都有在学习。最近的学习计划是再过一遍原生JavaScript，多掌握几个MVC前端框架，如angular.js、node.js，并且尽快把自己的项目完善好，毕竟目前最大的短板就是项目经验缺乏</p>\n                        <p>生活中的我开朗、大方、幽默，待人真诚、热情，跟同事、朋友之间交往关系融洽。平常喜欢篮球、游泳、唱歌、拍照等等，兴趣广泛。首页轮播图就是我自己平常用手机拍的照片，虽然谈不上多厉害，但是我觉得自己的美感还可以。</p>\n                       \n                </div>        \n            </div>    \n        </div>\n     </div>\n     <div id=\"experience\">\n        <div class=\"container\">\n            <div class=\"ex_heading\">\n                 <h2>个人历程</h2>\n                 <h3>2014年7月毕业于暨南大学，2015年10月开始我的前端自学生涯。</h3>\n            </div>\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-6\">\n                </div>     \n                <div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-6 ex_content\">\n                 <span class=\"from\">2014.7</span>\n                 <span class=\"until\">2016.4</span>\n                 <h3 ><a href=\"http://www.gcable.com.cn/\" target=\"_blank\" class=\"ex_1\">广电网络佛山分公司</a></a></h3>\n                 <h4>网络运维部——平台运维岗</h4>\n                 <p>负责广电佛山分公司中心机房的平台运维工作，所负责的平台包括数字电视平台、高清互动平台、城域数据网、城域传输网的日常维护工作。另外还负责一些机房整改、信源调整、频道调整等项目性工作。</p>    \n                </div>           \n            </div>\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-6\">\n                </div>     \n                <div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-6 ex_content\">\n                 <span class=\"from\">2010.9</span>\n                 <span class=\"until\">2014.7</span>\n                 <h3 ><a href=\"http://www.jnu.edu.cn/jnu2014/\" target=\"_blank\" class=\"school\">暨南大学</a></a></h3>\n                 <h4>专业：电子科学与技术</h4>\n                 <p>主修课程包括：数电模电、微机原理、计算机网络、通信原理、半导体微电子相关课程等。编程相关的有学过C语言、汇编语言，主要用于单片机控制。</p>  \n                </div>           \n            </div>\n        </div>\n     </div> \n     <div id=\"skill\">\n        <h2>职业技能</h2> \n        <p>成为一个优秀的前端工程师需要一个持续而长期的学习和积累的过程，需要在各种领域都有充足的知识。而我在2015年10月才开始接触前端开发，很多知识也就刚刚入门，但我相信只要开始，就不算太晚。现在我每天都有继续精进自己的技能、拓宽自己的知识面。在接下来的计划里，我打算继续巩固原生javascript方面的知识，并且多做几个自己的项目以增加自己的项目经验，当然能有公司愿意给我机会实践学习的就更好。除此之外，自己还计划在下一个阶段着手前端MVC框架angular.js的学习，希望早日可以点满自己的技能树。</p>\n        <div class=\"container\">\n            <div class=\"row\">\n                        <div class=\" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea\">\n                            <div class=\" col-xs-12\">\n                                <div class=\"skills\">\n                                    <div class=\"circle\">\n                                        <div class=\"pie_left\"><div class=\"left\"></div></div>\n                                        <div class=\"pie_right\"><div class=\"right\"></div></div>\n                                        <div class=\"mask\"><h3>HTML(5)</h3><span>80</span>%</div>\n                                      </div>\n                                </div>\n                            </div>\n                        </div>\n                         <div class=\" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea\">\n                             <div class=\"col-xs-12\">\n                                <div class=\"skills\">\n                                    <div class=\"circle\">\n                                        <div class=\"pie_left\"><div class=\"left\"></div></div>\n                                        <div class=\"pie_right\"><div class=\"right\"></div></div>\n                                        <div class=\"mask\"><h3>CSS(3)</h3><span>85</span>%</div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                         <div class=\" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea\">\n                             <div class=\"col-xs-12\">\n                                 <div class=\"skills\">\n                                    <div class=\"circle\">\n                                        <div class=\"pie_left\"><div class=\"left\"></div></div>\n                                        <div class=\"pie_right\"><div class=\"right\"></div></div>\n                                        <div class=\"mask\"><h3>Javascript</h3><span>80</span>%</div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                         <div class=\" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea\">\n                             <div class=\"col-xs-12\">\n                                 <div class=\"skills\">\n                                    <div class=\"circle\">\n                                        <div class=\"pie_left\"><div class=\"left\"></div></div>\n                                        <div class=\"pie_right\"><div class=\"right\"></div></div>\n                                        <div class=\"mask\"><h3>jQuery</h3><span>85</span>%</div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                         <div class=\" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea\">\n                             <div class=\"col-xs-12\">\n                                 <div class=\"skills\">\n                                    <div class=\"circle\">\n                                        <div class=\"pie_left\"><div class=\"left\"></div></div>\n                                        <div class=\"pie_right\"><div class=\"right\"></div></div>\n                                        <div class=\"mask\"><h3>Bootstrap</h3><span>90</span>%</div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                         <div class=\" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea\">\n                             <div class=\"col-xs-12\">\n                                 <div class=\"skills\">\n                                    <div class=\"circle\">\n                                        <div class=\"pie_left\"><div class=\"left\"></div></div>\n                                        <div class=\"pie_right\"><div class=\"right\"></div></div>\n                                        <div class=\"mask\"><h3>Photoshop</h3><span>70</span>%</div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea\">\n                            <div class=\"col-xs-12\">\n                                <div class=\"skills\">\n                                    <div class=\"circle\">\n                                        <div class=\"pie_left\"><div class=\"left\"></div></div>\n                                        <div class=\"pie_right\"><div class=\"right\"></div></div>\n                                        <div class=\"mask\"><h3>github</h3><span>70</span>%</div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n            </div>\n        </div>\n    </div>\n    <div id=\"project\">\n        <h2>作品集</h2>\n        <p>这是一些目前为止可以拿的出手的作品还有一些demo。相信往后会越来越多，敬请期待。</p>\n        <div class=\"container\">\n            <div class=\"row project\">\n               <div class=\"col-sm-6 col-md-3\">\n                  <div class=\"thumbnail\">\n                    <div class=\"project_p\">\n                     <a href=\"#\"><img src=\"images/project_1.png\" alt=\"project_1\"></a>\n                     </div>\n                  </div>\n                  <div class=\"caption\">\n                     <h3>仿淘宝首页</h3>\n                     <p>这是一个仿淘宝首页的作品，里面的使用原生的JavaScript编写的。</p>\n                  </div>\n               </div>  \n              <div class=\"col-sm-6 col-md-3\">\n                  <div class=\"thumbnail\">\n                    <div class=\"project_p\">\n                     <a href=\"#\"></a><img src=\"images/project_2.png\" alt=\"project_2\"></a>\n                     </div>\n                  </div>\n                  <div class=\"caption\">\n                     <h3>聊天室</h3>\n                     <p>这是一个仿淘宝首页的作品，里面的使用原生的JavaScript编写的。</p>\n                  </div>\n               </div>          \n               <div class=\"col-sm-6 col-md-3\">\n                  <div class=\"thumbnail\">\n                    <div class=\"project_p\">\n                     <a href=\"#\"><img src=\"images/project_3.png\" alt=\"project_3\"></a>\n                     </div>\n                  </div>\n                  <div class=\"caption\">\n                     <h3>预览图幻灯片demo</h3>\n                     <p>这是一个仿淘宝首页的作品，里面的使用原生的JavaScript编写的。</p>\n                  </div>\n               </div>          \n               <div class=\"col-sm-6 col-md-3\">\n                  <div class=\"thumbnail\">\n                    <div class=\"project_p\">\n                     <a href=\"#\"></a><img src=\"images/project_4.png\" alt=\"project_4\"></a>\n                     </div>\n                  </div>\n                  <div class=\"caption\">\n                     <h3>实例索引</h3>\n                     <p>这是一个仿淘宝首页的作品，里面的使用原生的JavaScript编写的。</p>\n                  </div>\n               </div>           \n            </div>\n        </div>\n    </div>\n    <div id=\"picture\">\n        <h2>我的图册</h2> \n        <div class=\"container\">\n            <div class=\"row \">\n                <div class=\"col-sm-12 col-md-12 scroll_p\">\n                   <ul>t\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb1.jpg\" alt=\"images/picture/picture1.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb2.jpg\" alt=\"images/picture/picture2.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb3.jpg\" alt=\"images/picture/picture3.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb4.jpg\" alt=\"images/picture/picture4.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb5.jpg\" alt=\"images/picture/picture5.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb6.jpg\" alt=\"images/picture/picture6.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb7.jpg\" alt=\"images/picture/picture7.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb8.jpg\" alt=\"images/picture/picture8.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb9.jpg\" alt=\"images/picture/picture9.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb10.jpg\" alt=\"images/picture/picture10.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb11.jpg\" alt=\"images/picture/picture11.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb12.jpg\" alt=\"images/picture/picture12.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb13.jpg\" alt=\"images/picture/picture13.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb14.jpg\" alt=\"images/picture/picture14.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb15.jpg\" alt=\"images/picture/picture15.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb16.jpg\" alt=\"images/picture/picture16.jpg\"></div></li>  \n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb17.jpg\" alt=\"images/picture/picture17.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb18.jpg\" alt=\"images/picture/picture18.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb19.jpg\" alt=\"images/picture/picture19.jpg\"></div></li>\n                       <li ><div class=\"pic\"><img src=\"images/thumb/thumb20.jpg\" alt=\"images/picture/picture20.jpg\"></div></li>\n                   </ul>\n                </div>\n            </div>\n            <div class=\"row\">\n                   <div class=\"col-sm-12 col-md-12\">\n                       <div id=\"bigpic\">\n                       <img src=\"images/picture/picture1.jpg\" alt=\"picture1\" >\n                       <div class=\"loading\"><p>loading</p></div>\n                       </div>\n                   </div>\n            </div>\n        </div>\n    </div>\n    <div id=\"ps\"> \n        <h2>后记</h2> \n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-sm-12 col-md-12\">\n                    <p>几经困难，我的一个原创网页总算可以上线了。对于前端开发，我只是个刚刚入门的菜鸟，所幸的是，自己这段时间对前端的热情并没有减退，而是越来越入迷了。这个网页我花了一个多星期去搭建，好像有点慢了。上面的效果都是我自己写的，说不上纯原创，但是并没有借用任何jQuery插件去实现，因为我觉得还是自己写出来比较能展现自己的能力。我是从2015年10月才开始接触前端的，很多人会觉得，我本科毕业都已经有一份稳定的工作了，为什么还那么折腾去学一样新的东西。首先我也是慢慢工作后才发现，相比起维护，自己还是更倾向于创造，这样才更能体现自己的价值。刚开始学的时候我也会想过，现在才学会不会有点太晚了，但我相信，只要开始了，就不算太晚。正如我前面所说，种一棵树最好的时间是十年前，其次是现在。现在这棵树已经发芽了。正正需要一份实际的工作来给我充足的养分去茁壮成长。希望看到这里的你们，可以给我这个机会。</p>\n                    <p>顺便给一些正在学习、或者准备学习前端的同学们分享一下自己的自学心得吧。我自己自学的渠道有很多，首先w3cshool肯定是每个前端初学者都会去的，慕课网我也已经积累了200+小时的学习时长，还有主要就是看书，目前我买了纸质版已经看过了的书有《Head first HTML & CSS》、《CSS权威指南（第三版）》、《javascript DOM编程艺术》、《javascript高级编程设计》《javascript语言精粹》、《锋利的jquery》《响应式web设计——HTML5和CSS3实战》。当然，光说不练空把式，自己在网站学习还有看书的时候都有跟着书上的练习码代码，但真正谈得上作品的，还没有。所以接下来得好好地做几个自己的作品，以增加自己找到工作的机会。</p>\n                   <p>哈哈，最后看到这里的。肯定都是真爱。么么哒。</p> \n                </div>\n            </div>\n        </div>\n     </div>\n     <div id=\"contact\">\n       \n        <h2>联系我</h2> \n     </div>\n</div>\n\n\n</div>\n\n</body>\n</html>",
+			"file": "index.html",
+			"file_size": 21321,
+			"file_write_time": 131036165574284044,
+			"settings":
+			{
+				"buffer_size": 17555,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "$(function(){\n    //logo头像hover动画；\n$(\".logo\").hover(\n   	function(){\n   	if (!$(\".logo,.logo_1\").is(\":animated\")) {\n   	    \n         $(\".logo_1\").fadeOut(\"slow\"); \n                       }	\n                      },\n      function(){\n   	  $(\".logo_1\").fadeIn(\"slow\"); \n   	               \n                  });\n  //导航栏效果\n  \n\n\n   //内部链接平滑滑动；\n   $('.navlink a').click(function () {\n          \n   	          var $idhref=$(this).attr(\"href\");\n               $('html, body').animate({\n                   scrollTop:($($idhref).offset().top) }, 500);\n                   return false;});\n   $('.navbar-brand').click(function () {\n         \n               $('html, body').animate({\n                   scrollTop: 0 }, 500);\n                   return false;})\n    $('#btn_aboutme').click(function () {\n       \n               $('html, body').animate({\n                   scrollTop: ($(\"#aboutme\").offset().top) }, 500);\n                   return false;});\n    $('#btn_contact').click(function () {\n     \n               $('html, body').animate({\n                   scrollTop: ($(\"#contact\").offset().top) }, 500);\n                   return false;});\n   //当滚动条滚动到导航条位置时，导航条变为fixed; \n   $(window).scroll(function(){\n   	   if ($(window).scrollTop()>$(\"#aboutme\").offset().top-95) {\n   	   $(\".navbar\").removeClass(\"nav_ab\").addClass(\"navbar-fixed-top\");\n       $(\"#aboutme\").css(\"marginTop\",\"90px\");\n              	}else{\n              	$(\".navbar\").removeClass(\"navbar-fixed-top\").addClass(\"nav_ab\");\n                $(\"#aboutme\").css(\"marginTop\",\"0px\");\n                \n              	};\n\n\n      //skill圆形进度条效果\n       if ($(window).scrollTop()>($(\"#skill\").offset().top-50)) {\n           $('.circle').each(function(index, el) {\n        var num = $(this).find('span').text() * 3.6;\n        if (num<=180) {\n            $(this).find('.right').css('transform', \"rotate(\" + num + \"deg)\");\n        } else {\n            $(this).find('.right').css('transform', \"rotate(180deg)\");\n            $(this).find('.left').css('transform', \"rotate(\" + (num - 180) + \"deg)\");\n        };\n         }); }\n    //滚动时导航栏样式变化\nif ($(window).scrollTop()<($(\"#aboutme\").offset().top-50)) {\n    $(\".navlink li\").removeClass(\"on\");\n }else if ($(window).scrollTop()>($(\"#aboutme\").offset().top-50)&&$(window).scrollTop()<($(\"#experience\").offset().top-50)) {\n    $(\".navlink li:eq(0)\").addClass(\"on\").siblings().removeClass(\"on\");\n  }else if ($(window).scrollTop()>($(\"#experience\").offset().top-50)&&$(window).scrollTop()<($(\"#skill\").offset().top-50)) {\n    $(\".navlink li:eq(1)\").addClass(\"on\").siblings().removeClass(\"on\");\n  } else if ($(window).scrollTop()>($(\"#skill\").offset().top-50)&&$(window).scrollTop()<($(\"#project\").offset().top-50)) {\n    $(\".navlink li:eq(2)\").addClass(\"on\").siblings().removeClass(\"on\");\n  } else if ($(window).scrollTop()>($(\"#project\").offset().top-50)&&$(window).scrollTop()<($(\"#picture\").offset().top-50)) {\n    $(\".navlink li:eq(3)\").addClass(\"on\").siblings().removeClass(\"on\");\n  } else if ($(window).scrollTop()>($(\"#picture\").offset().top-50)&&$(window).scrollTop()<($(\"#ps\").offset().top-50)) {\n    $(\".navlink li:eq(4)\").addClass(\"on\").siblings().removeClass(\"on\");\n  } else if ($(window).scrollTop()>($(\"#ps\").offset().top-50)&&$(window).scrollTop()<($(\"#contact\").offset().top-50)) {\n    $(\".navlink li:eq(5)\").addClass(\"on\").siblings().removeClass(\"on\");\n  } else if ($(window).scrollTop()>($(\"#contact\").offset().top-50)) {\n    $(\".navlink li:eq(6)\").addClass(\"on\").siblings().removeClass(\"on\");\n  };\n\n\n\n   });\n  //aboutme树遮罩文字\n  $(\".aboutme_1\").hover(\n  	function () {\n  		if (!$(\".aboutme_tips\").is(\":animated\")) {\n			  	$(\".aboutme_tips\").fadeIn(1000);\n			  	$(\".aboutme_tips>p\").fadeIn(3000);}\n  	},\n  	function () {\n  		$(\".aboutme_tips\").fadeOut(5000);\n  		$(\".aboutme_tips>p\").fadeOut(3000);}\n  	);\n \n//首页背景图片轮播\n var $bg1=$(\"#bg>.bg_slide\").eq(0);\n var $bg2= $(\"#bg>.bg_slide\").eq(1);\n var bg_length= $(\"#bg>.bg_slide\").length-1;\n var bg_num=1;\n var showpic=$bg2;\n function bg_show(){\n  if (bg_num<bg_length) {\n     showpic.fadeIn(1000,function(){$(this).siblings().css(\"display\",\"none\");});\n     bg_num++;\n     showpic=showpic.next();\n    }else{\n    showpic.fadeIn(1000,function(){\n            $bg1.css(\"display\",\"block\").siblings().css(\"display\",\"none\");\n             });\n    bg_num=1;\n    showpic=$bg2;\n    }\n   };\n  bg_show(); \n var bgplay=setInterval(bg_show,4000);\n\n//图册无限滚动    \n     var segmentWidth=0;\n     var  $scrollUl=$(\".scroll_p ul\");\n     var  $scrollLi=$scrollUl.find(\"li\");\n       function run(){   \n                      $scrollUl.animate({left:-segmentWidth},12000,\"linear\", function(){ $scrollUl.css(\"left\",\"0px\");}); \n       \n      }; \n      var scroll_play=setInterval(run,12000);\n  $(\".pic img:last\").load(function(){\n       $scrollLi.each(function(){\n        segmentWidth += $(this)[0].offsetWidth;\n          });\n      $scrollLi.clone(true).appendTo($scrollUl);\n      scroll_play=setInterval(run,12000)\n});\n //图册hover停止\n $scrollUl.hover(function(){clearInterval(scroll_play);$scrollUl.stop();},function(){ \n  run();\n   scroll_play=setInterval(run,12000);})\n //图册点击切换\n$scrollLi.click(function(){\n  var src=$(this).find(\"img\").attr(\"alt\");\n  $(\"#bigpic\").find(\"img\").attr(\"src\",src);\n});\n\n\n\n\n\n\n});",
+			"file": "javascript/main.js",
+			"file_size": 5552,
+			"file_write_time": 131036165574324151,
+			"settings":
+			{
+				"buffer_size": 5234,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "styles/styles.css",
+			"settings":
+			{
+				"buffer_size": 5714,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/27298/git/aboutme_alick/index.html",
+		"/D/27298/git/aboutme_alick/styles/styles.css",
+		"/D/27298/git/aboutme_alick/javascript/main.js",
+		"/D/27298/git/alickchen.github.io/params.json",
+		"/D/27298/Project/项目/个人简历/styles/styles.css",
+		"/D/27298/Project/项目/个人简历/javascript/main.js",
+		"/D/27298/Project/项目/个人简历/index.html",
+		"/D/27298/Project/SuperSlide2.1-demo-00/demo/3.0-picScroll-left.html",
+		"/D/27298/Project/aboutme-gh-pages/index.html",
+		"/C/Users/27298/project/index.html",
+		"/D/27298/Project/SuperSlide2.1-demo-00/default.css",
+		"/C/Users/27298/AppData/Local/Temp/360zip$Temp/360$1/jquery.SuperSlide.2.1.1.source.js",
+		"/C/Users/27298/AppData/Local/Temp/360zip$Temp/360$0/jquery.SuperSlide.2.1.1.js",
+		"/D/27298/Project/项目/瀑布流/css/style.css",
+		"/D/27298/Project/项目/瀑布流/index.html",
+		"/D/27298/Project/项目/瀑布流/js/script.js",
+		"/D/27298/Project/慕课电商/styles/main.css",
+		"/D/27298/Project/淘宝首页/styles/main.css",
+		"/D/27298/Project/个人简历/styles/styles.css",
+		"/D/27298/Project/个人简历/index.html",
+		"/D/27298/Project/个人简历/javascript/main.js",
+		"/D/27298/Project/遮罩.html",
+		"/D/27298/Project/个人简历/javascript/bootstrap.js",
+		"/D/27298/Project/个人简历/javascript/mian.js",
+		"/D/27298/Project/个人简历/styles/mian.css",
+		"/D/27298/Project/个人简历/bootstrap.html",
+		"/D/27298/Project/个人简历/test.html",
+		"/D/27298/Project/aboutme-gh-pages/js/jquery.superslides.js",
+		"/D/迅雷下载/aboutme-gh-pages/index.html",
+		"/D/迅雷下载/aboutme-gh-pages/css/perfect-scrollbar.css",
+		"/D/迅雷下载/aboutme-gh-pages/css/font.css",
+		"/D/迅雷下载/aboutme-gh-pages/css/fallback.css",
+		"/D/迅雷下载/aboutme-gh-pages/css/bootstrap.css",
+		"/D/27298/Project/淘宝首页/index_tb.html",
+		"/D/27298/Project/个人简历/javascript/jquery-ui.min.css",
+		"/D/27298/Project/个人简历/styles/jquery.fullPage.css",
+		"/D/27298/Project/个人简历/javascript/jquery-ui.min.js",
+		"/D/27298/Project/个人简历/styles/css.css",
+		"/D/27298/Project/个人简历/javascript/jquery.fullPage.js",
+		"/D/27298/Project/个人简历",
+		"/D/27298/Project/淘宝首页/scripts/script.js",
+		"/D/27298/Project/项目/实例索引/换肤new.html",
+		"/C/Users/27298/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/27298/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/27298/Documents/E盘文件/项目/预览图幻灯片/index.html",
+		"/D/27298/Project/慕课电商/index.html",
+		"/D/27298/Documents/E盘文件/项目/瀑布流/js/script.js",
+		"/D/27298/Project/淘宝首页/index.html",
+		"/D/27298/Project/index.html",
+		"/D/27298/Project/jQuery电商网站/detail.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			");\n",
+			"500px",
+			"pause",
+			";}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17555,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16017,
+								16017
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6479.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "javascript/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5176,
+								5176
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2052.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "styles/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5714,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 7068.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.582537900056,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 139.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

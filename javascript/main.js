@@ -138,7 +138,11 @@ if ($(window).scrollTop()<($("#aboutme").offset().top-50)) {
  //图册点击切换
 $scrollLi.click(function(){
   var src=$(this).find("img").attr("alt");
-  $("#bigpic").find("img").attr("src",src);
+  $("#bigpic .loading").css("display","block");
+  $("#bigpic").find("img").attr("src",src).load(function(){
+  $("#bigpic .loading").css("display","none");
+  });
+
 }).clone(true).appendTo($scrollUl);
 
 
