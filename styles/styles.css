@@ -185,7 +185,7 @@
 .ex_content{
 	margin-top: 30px;
 }
-.until,.from,.more{
+.until,.from{
 	color: #FFF;
 	font-size: 200%;
 	padding: 10px;
@@ -214,21 +214,9 @@
 	color: #005D6C;
 	font-weight: bold;
 }
-.more{
-   /* width: 80px;
-    height: 30px;
-    display: block;*/
-    background-color: #005D6C;
-    /*color: #FFF;
-    border-radius: 20px;
-    padding: 10px;
-    font-size: 10px;
-    float: right;
-    font-weight: bold;*/
-}
 .ex_more{
     position: absolute;
-    top: -280px;
+    top: 0px;
     background-color: #8EC63F;
     color: #FFF;
     border-radius: 20px;
@@ -238,6 +226,7 @@
     -moz-transition:All 0.5s linear;
     -o-transition:All 0.5s linear;
     opacity: 0;
+    z-index: 5;
 }
 .ex_more dt{
     color: #056839;
@@ -245,7 +234,7 @@
     font-weight: bold;
 }
 #ex_school:hover .ex_more{
-    top: -300px;
+    top: 90px;
     opacity: 1;
 
 }
