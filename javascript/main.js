@@ -121,16 +121,16 @@ if ($(window).scrollTop()<($("#aboutme").offset().top-50)) {
      var  $scrollUl=$(".scroll_p ul");
      var  $scrollLi=$scrollUl.find("li");
        function run(){   
-                      $scrollUl.animate({left:-segmentWidth/2},12000,"linear", function(){ $scrollUl.css("left","0px");}); 
-       console.log(segmentWidth);
+                      $scrollUl.animate({left:-2733},12000,"linear", function(){ $scrollUl.css("left","0px");}); 
+       
       }; 
       var scroll_play=setInterval(run,12000);
-  $(".pic img:last").load(function(){
+ /* $(".pic img:last").load(function(){
        $scrollLi.each(function(){
         segmentWidth += $(this)[0].offsetWidth;
           });
-     console.log(segmentWidth);
-});
+     console.log(segmentWidth);*///原本用来获得缩略图总宽度，由于网页加载时间不确定，所以自动计算的宽度有时候不准。所以现在直接固定为2733
+/*});*/
  //图册hover停止
  $scrollUl.hover(function(){clearInterval(scroll_play);$scrollUl.stop();},function(){ 
   run();
