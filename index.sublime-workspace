@@ -210,6 +210,14 @@
 				"buffer_size": 4725,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 18384,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -335,7 +343,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -361,6 +369,36 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14045,
+								14045
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4978.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -402,7 +440,7 @@
 		"cols":
 		[
 			0.0,
-			0.527793374509,
+			0.701291409321,
 			1.0
 		],
 		"rows":
