@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"r",
+				"right"
+			],
+			[
+				"re",
+				"required"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
 				"pi",
 				"position"
 			],
@@ -26,10 +38,6 @@
 			[
 				"fo",
 				"font-size"
-			],
-			[
-				"t",
-				"top"
 			],
 			[
 				"di",
@@ -92,10 +100,6 @@
 				"first"
 			],
 			[
-				"re",
-				"removeClass"
-			],
-			[
 				"col",
 				"color"
 			],
@@ -146,10 +150,6 @@
 			[
 				"get",
 				"getElementsByTagName"
-			],
-			[
-				"r",
-				"rgba()"
 			],
 			[
 				"borderr",
@@ -203,22 +203,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/D/27298/Project/项目/预览图幻灯片/index.html",
-			"settings":
-			{
-				"buffer_size": 4725,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 18384,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -252,9 +236,29 @@
 	},
 	"file_history":
 	[
-		"/D/27298/git/alickchen.github.io/styles/styles.css",
+		"/D/27298/Project/项目/pd-05497004-2db6-11e4-954d-000c29f61318/bootstrapvalidator-master/demo/attribute.html",
+		"/G/statichtml/desktop-bootstrap/job-apply.html",
+		"/G/statichtml/dist/js/job-apply.js",
+		"/D/27298/Project/项目/pd-05497004-2db6-11e4-954d-000c29f61318/bootstrapvalidator-master/README.md",
+		"/D/27298/Project/项目/pd-05497004-2db6-11e4-954d-000c29f61318/bootstrapvalidator-master/bootstrapValidator.jquery.json",
+		"/D/27298/Project/项目/瀑布流/js/script.js",
+		"/G/statichtml/desktop-bootstrap/article-index.html",
+		"/D/迅雷下载/jiaoben1975/index.html",
+		"/D/迅雷下载/jiaoben1975/css/lavalamp_test.css",
+		"/D/迅雷下载/jiaoben1975/js/jquery.lavalamp.js",
+		"/G/statichtml/dist/js/article-index.js",
 		"/D/27298/git/alickchen.github.io/javascript/main.js",
+		"/G/statichtml/desktop-bootstrap/css/article-index.less",
+		"/D/27298/Project/react-demos-master/demo12/index.html",
+		"/D/27298/Project/react-demos-master/demo13/package.json",
+		"/D/27298/Project/react-demos-master/demo13/README.md",
+		"/D/27298/Project/项目/预览图幻灯片/index.html",
 		"/D/27298/git/alickchen.github.io/index.html",
+		"/D/27298/Project/react-demos-master/demo11/index.html",
+		"/D/27298/Project/react-demos-master/demo10/index.html",
+		"/D/27298/Project/react-demos-master/demo04/index.html",
+		"/D/27298/Project/react-demos-master/demo05/index.html",
+		"/D/27298/git/alickchen.github.io/styles/styles.css",
 		"/D/27298/git/aboutme_alick/index.html",
 		"/D/27298/git/aboutme_alick/styles/styles.css",
 		"/D/27298/git/aboutme_alick/javascript/main.js",
@@ -270,7 +274,6 @@
 		"/C/Users/27298/AppData/Local/Temp/360zip$Temp/360$0/jquery.SuperSlide.2.1.1.js",
 		"/D/27298/Project/项目/瀑布流/css/style.css",
 		"/D/27298/Project/项目/瀑布流/index.html",
-		"/D/27298/Project/项目/瀑布流/js/script.js",
 		"/D/27298/Project/慕课电商/styles/main.css",
 		"/D/27298/Project/淘宝首页/styles/main.css",
 		"/D/27298/Project/个人简历/styles/styles.css",
@@ -343,67 +346,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/D/27298/Project/项目/预览图幻灯片/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4725,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4038,
-								4038
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 18384,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14045,
-								14045
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4978.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -440,7 +384,7 @@
 		"cols":
 		[
 			0.0,
-			0.701291409321,
+			0.501965188097,
 			1.0
 		],
 		"rows":
